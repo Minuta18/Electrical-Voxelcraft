@@ -2,11 +2,11 @@ function update_generator(x, y, z)
     local name = block.name(block.get(x, y, z))
 
     -- Посылаем нахуй если не генератор.
-    if not name:startsWith("electrical_age_lite:generator") then return end
+    if not name:startsWith("electrical_voxelcraft:generator") then return end
 
     local data = get_block_data(x,y,z);
 
-    if name:startsWith("electrical_age_lite:generator_thermo") then
+    if name:startsWith("electrical_voxelcraft:generator_thermo") then
         local invid = inventory.get_block(x, y, z)
         local inv_item, inv_val = inventory.get(invid, 0)
         local consumables = get_constants().generators.thermo.consumables
@@ -14,9 +14,12 @@ function update_generator(x, y, z)
 
         -- Пополнение энергии вплоть до максимума.
         if data.current_process_time > 0 then
-            if data.energy_bank_max_value - data.energy_bank_value >= data.energy_generation then
+            if data.energy_bank_max_value - data.energy_bank_value >= 
+                    data.energy_generation 
+            then
                 data.current_process_time = data.current_process_time - 1
-                data.energy_bank_value = data.energy_bank_value + data.energy_generation
+                data.energy_bank_value = data.energy_bank_value + 
+                    data.energy_generation
             end
         end
 
@@ -43,7 +46,7 @@ function update_generator(x, y, z)
             end
         end
 
-    elseif name:startsWith("electrical_age_lite:generator_solar") then
+    elseif name:startsWith("electrical_voxelcraft:generator_solar") then
         local time = world.get_day_time()
         if time > 0.25 and time < 0.75 then
             local tmp_y = y + 1
@@ -60,7 +63,7 @@ function update_generator(x, y, z)
             end
         end
 
-    elseif name:startsWith("electrical_age_lite:generator_hydro") then
+    elseif name:startsWith("electrical_voxelcraft:generator_hydro") then
         local invid = inventory.get_block(x, y, z);
         local inv_item, inv_val = inventory.get(invid, 0);
 
@@ -70,8 +73,11 @@ function update_generator(x, y, z)
         for k, v in pairs(turbines) do
             if item.name(inv_item) == v then
                 data.energy_generation = energy_produce[k]
-                if data.energy_bank_max_value - data.energy_bank_value >= data.energy_generation then
-                    data.energy_bank_value = data.energy_bank_value + energy_produce[k]
+                if data.energy_bank_max_value - data.energy_bank_value >= 
+                    data.energy_generation 
+                then
+                    data.energy_bank_value = data.energy_bank_value + 
+                        energy_produce[k]
                 end
             end
         end
@@ -83,7 +89,7 @@ end
 function generator_drain_energy(x, y, z, vce, change)
     if change == nil then change = true end
     local name = block.name(block.get(x, y, z))
-    if name:startsWith("electrical_age_lite:generator") then
+    if name:startsWith("electrical_voxelcraft:generator") then
         local data = get_block_data(x, y, z)
         if data.energy_bank_value > 0 then
             local can_give = math.min(data.energy_bank_value, vce)

@@ -7,9 +7,9 @@
       "energy_produce": [4, 16, 32],
       "turbine_radius": [2, 3, 4],
       "turbines": [
-        "electrical_age_lite:turbine_hydro_wood",
-        "electrical_age_lite:turbine_hydro_iron",
-        "electrical_age_lite:turbine_hydro_nanofiber"
+        "electrical_voxelcraft:turbine_hydro_wood",
+        "electrical_voxelcraft:turbine_hydro_iron",
+        "electrical_voxelcraft:turbine_hydro_nanofiber"
       ]
     },
     "solar": {
@@ -35,9 +35,9 @@
       "energy_produce": [4, 16, 32],
       "turbine_radius": [3, 4, 5],
       "turbines": [
-        "electrical_age_lite:turbine_wind_wood",
-        "electrical_age_lite:turbine_wind_iron",
-        "electrical_age_lite:turbine_wind_nanofiber"
+        "electrical_voxelcraft:turbine_wind_wood",
+        "electrical_voxelcraft:turbine_wind_iron",
+        "electrical_voxelcraft:turbine_wind_nanofiber"
       ]
     }
   },

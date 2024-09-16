@@ -1,4 +1,5 @@
-local constants_lib = require("electrical_age_lite:constants")
+---@diagnostic disable: undefined-field
+local constants_lib = require("electrical_voxelcraft:constants")
 local constants = get_constants()
 local list = {}
 
@@ -29,11 +30,15 @@ end
 
 function set_block_data_pattern(x, y, z, pattern_name)
     -- print(constants.data_patterns[pattern_name], pattern_name)
-    list["x"..x.."y"..y.."z"..z].data = table.clone(constants.data_patterns[pattern_name])
+    list["x"..x.."y"..y.."z"..z].data = table.clone(
+        constants.data_patterns[pattern_name]
+    )
 end
 
 function get_block_data(x, y, z)
-    if list["x"..x.."y"..y.."z"..z] then return list["x"..x.."y"..y.."z"..z].data end
+    if list["x"..x.."y"..y.."z"..z] then 
+        return list["x"..x.."y"..y.."z"..z].data 
+    end
 end
 
 function clear_block(x, y, z)
