@@ -1,0 +1,11 @@
+{
+    "texture-faces": [
+        "machine_press_side",
+        "machine_press_side",
+        "machine_press_back",
+        "machine_press",
+        "machine_press_side",
+        "machine_press_side"
+    ],
+    "inventory-size": 2
+}

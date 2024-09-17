@@ -1,4 +1,23 @@
 {
+  "entities": [
+    "turbine_hydro",
+    "wires_debug"
+  ],
+  "items": [
+    "wire_copper",
+    "wire_tin",
+    "wire_bronze",
+    "wire_iron",
+    "wire_creative",
+    "turbine_hydro_iron",
+    "turbine_hydro_nanofiber",
+    "turbine_hydro_wood",
+    "ingot_bronze",
+    "ingot_copper",
+    "ingot_iron",
+    "ingot_tin",
+    "redstone"
+  ],
   "blocks": [
     "block_copper",
     "block_tin",
@@ -457,24 +476,10 @@
     "wire_tin_top_back",
     "wire_tin_top_front",
     "wire_tin_top",
-    "wire_tin_left_right_top"
-  ],
-  "items": [
-    "wire_copper",
-    "wire_tin",
-    "wire_bronze",
-    "wire_iron",
-    "wire_creative",
-    "turbine_hydro_iron",
-    "turbine_hydro_nanofiber",
-    "turbine_hydro_wood",
-    "ingot_bronze",
-    "ingot_copper",
-    "ingot_iron",
-    "ingot_tin"
-  ],
-  "entities": [
-    "turbine_hydro",
-    "wires_debug"
+    "wire_tin_left_right_top",
+    "copper_ore",
+    "machine_press",
+    "redstone_ore",
+    "tin_ore"
   ]
 }
