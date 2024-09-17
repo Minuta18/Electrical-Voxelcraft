@@ -1,0 +1,21 @@
+{
+    "count": 1,
+    "pools": [
+        {
+            "probability": 1,
+            "count": 1,
+            "variant": [
+                {
+                    "id": "electrical_voxelcraft:redstone",
+                    "count": 5,
+                    "weight": 1
+                },
+                {
+                    "id": "electrical_voxelcraft:redstone",
+                    "count": 4,
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

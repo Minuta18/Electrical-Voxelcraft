@@ -4,6 +4,7 @@ local gui_information_updater = require(
 local blocks_list = require("electrical_voxelcraft:blocks_list")
 local constants_lib = require("electrical_voxelcraft:constants")
 local constants = get_constants()
+require "electrical_voxelcraft:crafts"
 require "electrical_voxelcraft:machine_update"
 require "electrical_voxelcraft:table_copy"
 

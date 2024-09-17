@@ -1,0 +1,23 @@
+{
+    "electrical_voxelcraft:tin_ore": {
+        "min_height": 4,
+        "max_height": 60,
+        "min_size": 8,
+        "max_size": 60,
+        "max_per_chunk": 50
+    },
+    "electrical_voxelcraft:copper_ore": {
+        "min_height": 4,
+        "max_height": 60,
+        "min_size": 8,
+        "max_size": 10,
+        "max_per_chunk": 50
+    },
+    "electrical_voxelcraft:redstone_ore": {
+        "min_height": 4,
+        "max_height": 30,
+        "min_size": 8,
+        "max_size": 20,
+        "max_per_chunk": 20
+    }
+}
