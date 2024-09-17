@@ -1,4 +1,6 @@
-local gui_information_updater = require("electrical_voxelcraft:gui_information_updater")
+local gui_information_updater = require(
+    "electrical_voxelcraft:gui_information_updater"
+)
 
 function on_open(invid, x, y, z)
     set_current_block(x, y, z, invid)

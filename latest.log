@@ -1,0 +1,640 @@
+[I] 2024/09/17 08:16:48.359+0300 [              engine] loading settings
+[I] 2024/09/17 08:16:48.431+0300 [              window] max texture size is 16384
+[I] 2024/09/17 08:16:48.432+0300 [              window] GL Vendor: Intel
+[I] 2024/09/17 08:16:48.432+0300 [              window] GL Renderer: Mesa Intel(R) Graphics (RKL GT1)
+[I] 2024/09/17 08:16:48.432+0300 [              window] GLFW: 3.3.2 X11 GLX EGL OSMesa clock_gettime evdev shared
+[I] 2024/09/17 08:16:48.433+0300 [              engine] loading controls
+[I] 2024/09/17 08:16:48.474+0300 [            al-audio] initialized
+[I] 2024/09/17 08:16:48.474+0300 [            al-audio] max mono sources: 255
+[I] 2024/09/17 08:16:48.474+0300 [            al-audio] devices:
+[I] 2024/09/17 08:16:48.474+0300 [            al-audio]   OpenAL Soft
+[I] 2024/09/17 08:16:48.475+0300 [              locale] locales [fi_FI (Suomi)] [uk_UA (Українська)] [pl_PL (Polski)] [ru_RU (Русский)] [en_US (English)] [de_DE (Deutsch)] [be_BY (Беларуская)] added
+[I] 2024/09/17 08:16:48.476+0300 [           lua-state] Lua 5.1
+[I] 2024/09/17 08:16:48.476+0300 [           lua-state] LuaJIT 2.1.0-beta3
+[I] 2024/09/17 08:16:48.477+0300 [              engine] starting menu screen
+[I] 2024/09/17 08:16:48.477+0300 [              locale] locales [fi_FI (Suomi)] [uk_UA (Українська)] [pl_PL (Polski)] [ru_RU (Русский)] [en_US (English)] [de_DE (Deutsch)] [be_BY (Беларуская)] added
+[I] 2024/09/17 08:16:48.477+0300 [              engine] loading assets
+[I] 2024/09/17 08:16:48.477+0300 [       assets-loader] loading textures/blocks as blocks
+[I] 2024/09/17 08:16:48.479+0300 [       assets-loader] loading textures/items as items
+[I] 2024/09/17 08:16:48.481+0300 [       assets-loader] loading fonts/font as normal
+[I] 2024/09/17 08:16:48.485+0300 [       assets-loader] loading shaders/ui as ui
+[I] 2024/09/17 08:16:48.490+0300 [       assets-loader] loading shaders/main as main
+[I] 2024/09/17 08:16:48.491+0300 [       assets-loader] loading shaders/lines as lines
+[I] 2024/09/17 08:16:48.491+0300 [       assets-loader] loading textures/gui/menubg as gui/menubg
+[I] 2024/09/17 08:16:48.491+0300 [       assets-loader] loading textures/gui/delete_icon as gui/delete_icon
+[I] 2024/09/17 08:16:48.491+0300 [       assets-loader] loading textures/gui/no_icon as gui/no_icon
+[I] 2024/09/17 08:16:48.491+0300 [       assets-loader] loading textures/gui/no_world_icon as gui/no_world_icon
+[I] 2024/09/17 08:16:48.491+0300 [       assets-loader] loading textures/gui/warning as gui/warning
+[I] 2024/09/17 08:16:48.492+0300 [       assets-loader] loading textures/gui/error as gui/error
+[I] 2024/09/17 08:16:48.492+0300 [       assets-loader] loading textures/gui/cross as gui/cross
+[I] 2024/09/17 08:16:48.492+0300 [       assets-loader] loading textures/gui/refresh as gui/refresh
+[I] 2024/09/17 08:16:48.493+0300 [           scripting] script (layout) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/pages/main.xml.lua
+[I] 2024/09/17 08:16:48.497+0300 [              engine] engine started
+[I] 2024/09/17 08:16:49.797+0300 [      content-loader] loading pack [base]
+[I] 2024/09/17 08:16:49.798+0300 [           scripting] script (block) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/grass_block.lua
+[I] 2024/09/17 08:16:49.798+0300 [           scripting] script (block) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/sand.lua
+[I] 2024/09/17 08:16:49.799+0300 [           scripting] script (block) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/wooden_door.lua
+[I] 2024/09/17 08:16:49.799+0300 [           scripting] script (item) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/bazalt_breaker.lua
+[I] 2024/09/17 08:16:49.800+0300 [           scripting] script (component) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/components/drop.lua
+[I] 2024/09/17 08:16:49.800+0300 [           scripting] script (component) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/components/falling_block.lua
+[I] 2024/09/17 08:16:49.800+0300 [           scripting] script (component) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/components/player_animator.lua
+[I] 2024/09/17 08:16:49.800+0300 [      content-loader] loading pack [vms_hud]
+[I] 2024/09/17 08:16:49.800+0300 [           scripting] script (world) /home/minuta18/.voxeng/content/vms_hud/scripts/world.lua
+[I] 2024/09/17 08:16:49.800+0300 [           scripting] script (component) /home/minuta18/.voxeng/content/vms_hud/scripts/components/hud_model.lua
+[I] 2024/09/17 08:16:49.801+0300 [      content-loader] loading pack [explode_lib]
+[I] 2024/09/17 08:16:49.801+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/explode_lib/scripts/explosive.lua
+[I] 2024/09/17 08:16:49.801+0300 [      content-loader] loading pack [customworldgen]
+[I] 2024/09/17 08:16:49.801+0300 [           scripting] script (world) /home/minuta18/.voxeng/content/custom_worldgen/scripts/world.lua
+[I] 2024/09/17 08:16:49.801+0300 [      content-loader] loading pack [voxelcraft]
+[I] 2024/09/17 08:16:49.801+0300 [           scripting] script (world) /home/minuta18/.voxeng/content/voxelcraft/scripts/world.lua
+[I] 2024/09/17 08:16:49.803+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/voxelcraft/scripts/crafting_table.lua
+[I] 2024/09/17 08:16:49.803+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/voxelcraft/scripts/furnace.lua
+[I] 2024/09/17 08:16:49.803+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/voxelcraft/scripts/chest.lua
+[I] 2024/09/17 08:16:49.803+0300 [           scripting] script (component) /home/minuta18/.voxeng/content/voxelcraft/scripts/components/breaker_animator.lua
+[I] 2024/09/17 08:16:49.803+0300 [      content-loader] loading pack [electrical_voxelcraft]
+[I] 2024/09/17 08:16:49.805+0300 [           scripting] script (world) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/world.lua
+[I] 2024/09/17 08:16:49.805+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.805+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.805+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.806+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.807+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.808+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.809+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.810+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.811+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.812+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.813+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.814+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.815+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.816+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.817+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.818+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.819+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.820+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.821+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.822+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.823+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.824+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.825+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.826+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/generator_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.827+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.828+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.829+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.830+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.831+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/generator_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/generator_logic.lua
+[I] 2024/09/17 08:16:49.832+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/generator_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/generator_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/machine_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/machine_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.833+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.834+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.835+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.836+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.837+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.838+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.839+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.840+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.841+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.842+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.843+0300 [           scripting] script (block) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/wire_logic.lua
+[I] 2024/09/17 08:16:49.844+0300 [           scripting] script (component) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/components/turbine_hydro.lua
+[I] 2024/09/17 08:16:49.844+0300 [           scripting] script (component) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/scripts/components/wires_debug.lua
+[I] 2024/09/17 08:16:49.844+0300 [              locale] locales [fi_FI (Suomi)] [uk_UA (Українська)] [pl_PL (Polski)] [ru_RU (Русский)] [en_US (English)] [de_DE (Deutsch)] [be_BY (Беларуская)] added
+[I] 2024/09/17 08:16:49.844+0300 [              engine] loading assets
+[I] 2024/09/17 08:16:49.844+0300 [       assets-loader] loading textures/blocks as blocks
+[I] 2024/09/17 08:16:49.851+0300 [       assets-loader] loading textures/items as items
+[I] 2024/09/17 08:16:49.853+0300 [       assets-loader] loading fonts/font as normal
+[I] 2024/09/17 08:16:49.857+0300 [       assets-loader] loading shaders/ui as ui
+[I] 2024/09/17 08:16:49.857+0300 [       assets-loader] loading shaders/main as main
+[I] 2024/09/17 08:16:49.857+0300 [       assets-loader] loading shaders/lines as lines
+[I] 2024/09/17 08:16:49.857+0300 [       assets-loader] loading textures/gui/menubg as gui/menubg
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/delete_icon as gui/delete_icon
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/no_icon as gui/no_icon
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/no_world_icon as gui/no_world_icon
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/warning as gui/warning
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/error as gui/error
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/cross as gui/cross
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/gui/refresh as gui/refresh
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/layouts/heart-damage as layouts/heart-damage
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/layouts/heart-empty as layouts/heart-empty
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/layouts/heart-full as layouts/heart-full
+[I] 2024/09/17 08:16:49.858+0300 [       assets-loader] loading textures/layouts/heart-part as layouts/heart-part
+[I] 2024/09/17 08:16:49.859+0300 [       assets-loader] loading textures/layouts/hunger-empty as layouts/hunger-empty
+[I] 2024/09/17 08:16:49.859+0300 [       assets-loader] loading textures/layouts/hunger-full as layouts/hunger-full
+[I] 2024/09/17 08:16:49.859+0300 [       assets-loader] loading textures/layouts/hunger-part as layouts/hunger-part
+[I] 2024/09/17 08:16:49.859+0300 [       assets-loader] loading textures/layouts/fire-icon as layouts/fire-icon
+[I] 2024/09/17 08:16:49.859+0300 [       assets-loader] loading textures/layouts/fire-icon2 as layouts/fire-icon2
+[I] 2024/09/17 08:16:49.859+0300 [       assets-loader] loading sounds/hit1 as hit1
+[I] 2024/09/17 08:16:49.860+0300 [       assets-loader] loading models/vms_icepick as vms_icepick
+[I] 2024/09/17 08:16:49.864+0300 [       assets-loader] loading shaders/ui3d as ui3d
+[I] 2024/09/17 08:16:49.864+0300 [       assets-loader] loading shaders/entity as entity
+[I] 2024/09/17 08:16:49.865+0300 [       assets-loader] loading shaders/screen as screen
+[I] 2024/09/17 08:16:49.865+0300 [       assets-loader] loading shaders/background as background
+[I] 2024/09/17 08:16:49.865+0300 [       assets-loader] loading shaders/skybox_gen as skybox_gen
+[I] 2024/09/17 08:16:49.866+0300 [       assets-loader] loading textures/misc/moon as misc/moon
+[I] 2024/09/17 08:16:49.869+0300 [       assets-loader] loading textures/misc/sun as misc/sun
+[I] 2024/09/17 08:16:49.871+0300 [       assets-loader] loading textures/gui/crosshair as gui/crosshair
+[I] 2024/09/17 08:16:49.872+0300 [       assets-loader] loading sounds/blocks/door_open as blocks/door_open
+[I] 2024/09/17 08:16:49.873+0300 [       assets-loader] loading sounds/blocks/door_close as blocks/door_close
+[I] 2024/09/17 08:16:49.874+0300 [       assets-loader] loading sounds/events/pickup as events/pickup
+[I] 2024/09/17 08:16:49.875+0300 [       assets-loader] loading models/drop-item as drop-item
+[I] 2024/09/17 08:16:49.876+0300 [       assets-loader] loading sounds/steps/wood as steps/wood
+[I] 2024/09/17 08:16:49.878+0300 [       assets-loader] loading sounds/blocks/wood_place as blocks/wood_place
+[I] 2024/09/17 08:16:49.879+0300 [       assets-loader] loading sounds/blocks/wood_break as blocks/wood_break
+[I] 2024/09/17 08:16:49.880+0300 [       assets-loader] loading sounds/steps/stone as steps/stone
+[I] 2024/09/17 08:16:49.883+0300 [       assets-loader] loading sounds/blocks/stone_place as blocks/stone_place
+[I] 2024/09/17 08:16:49.885+0300 [       assets-loader] loading sounds/blocks/stone_break as blocks/stone_break
+[I] 2024/09/17 08:16:49.886+0300 [       assets-loader] loading sounds/steps/sand as steps/sand
+[I] 2024/09/17 08:16:49.888+0300 [       assets-loader] loading sounds/blocks/ground_place as blocks/ground_place
+[I] 2024/09/17 08:16:49.891+0300 [       assets-loader] loading sounds/blocks/ground_break as blocks/ground_break
+[I] 2024/09/17 08:16:49.892+0300 [       assets-loader] loading sounds/steps/ground as steps/ground
+[I] 2024/09/17 08:16:49.896+0300 [       assets-loader] loading sounds/blocks/ground_place as blocks/ground_place
+[I] 2024/09/17 08:16:49.900+0300 [       assets-loader] loading sounds/blocks/ground_break as blocks/ground_break
+[I] 2024/09/17 08:16:49.901+0300 [       assets-loader] loading sounds/steps/grass as steps/grass
+[I] 2024/09/17 08:16:49.903+0300 [       assets-loader] loading sounds/blocks/ground_place as blocks/ground_place
+[I] 2024/09/17 08:16:49.906+0300 [       assets-loader] loading sounds/blocks/ground_break as blocks/ground_break
+[I] 2024/09/17 08:16:49.907+0300 [       assets-loader] loading sounds/steps/grass as steps/grass
+[I] 2024/09/17 08:16:49.910+0300 [       assets-loader] loading sounds/steps/grass as steps/grass
+[I] 2024/09/17 08:16:49.912+0300 [       assets-loader] loading sounds/steps/grass as steps/grass
+[I] 2024/09/17 08:16:49.915+0300 [       assets-loader] loading sounds/steps/metal as steps/metal
+[I] 2024/09/17 08:16:49.920+0300 [       assets-loader] loading sounds/blocks/metal_place as blocks/metal_place
+[I] 2024/09/17 08:16:49.923+0300 [       assets-loader] loading sounds/blocks/metal_break as blocks/metal_break
+[I] 2024/09/17 08:16:49.924+0300 [       assets-loader] loading sounds/steps/glass as steps/glass
+[I] 2024/09/17 08:16:49.927+0300 [       assets-loader] loading sounds/blocks/glass_place as blocks/glass_place
+[I] 2024/09/17 08:16:49.929+0300 [       assets-loader] loading sounds/blocks/glass_break as blocks/glass_break
+[I] 2024/09/17 08:16:49.930+0300 [       assets-loader] loading sounds/steps/carpet as steps/carpet
+[I] 2024/09/17 08:16:49.933+0300 [       assets-loader] loading sounds/blocks/carpet_place as blocks/carpet_place
+[I] 2024/09/17 08:16:49.934+0300 [       assets-loader] loading sounds/blocks/carpet_break as blocks/carpet_break
+[I] 2024/09/17 08:16:49.935+0300 [       assets-loader] loading /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/console.xml as core:console
+[I] 2024/09/17 08:16:49.935+0300 [           scripting] script (layout) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/console.xml.lua
+[I] 2024/09/17 08:16:49.935+0300 [       assets-loader] loading /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/inventory.xml as core:inventory
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/inventory.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/process.xml as core:process
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/process.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/Electrical-Voxelcraft/layouts/generator_hydro.xml as electrical_voxelcraft:generator_hydro
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/layouts/generator_hydro.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/Electrical-Voxelcraft/layouts/generator_thermo.xml as electrical_voxelcraft:generator_thermo
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/layouts/generator_thermo.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/Electrical-Voxelcraft/layouts/generator_wind.xml as electrical_voxelcraft:generator_wind
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/Electrical-Voxelcraft/layouts/generator_wind.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/chest.xml as voxelcraft:chest
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/crafting_table.xml as voxelcraft:crafting_table
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/crafting_table.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/crafting_table_inventory.xml as voxelcraft:crafting_table_inventory
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/crafting_table_inventory.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/died_menu.xml as voxelcraft:died_menu
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/died_menu.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/furnace.xml as voxelcraft:furnace
+[I] 2024/09/17 08:16:49.936+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/furnace.xml.lua
+[I] 2024/09/17 08:16:49.936+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/health_bar.xml as voxelcraft:health_bar
+[I] 2024/09/17 08:16:49.937+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/health_bar.xml.lua
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/hunger_bar.xml as voxelcraft:hunger_bar
+[I] 2024/09/17 08:16:49.937+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/hunger_bar.xml.lua
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading /home/minuta18/.voxeng/content/voxelcraft/layouts/inventory_blocker.xml as voxelcraft:inventory_blocker
+[I] 2024/09/17 08:16:49.937+0300 [           scripting] script (layout) /home/minuta18/.voxeng/content/voxelcraft/layouts/inventory_blocker.xml.lua
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading models/breaker as breaker
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading models/player-body as player-body
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading models/player-head as player-head
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading models/drop-block as drop-block
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading models/block as block
+[I] 2024/09/17 08:16:49.937+0300 [       assets-loader] loading textures/icepick as icepick
+[I] 2024/09/17 08:16:49.958+0300 [       assets-loader] loading textures/entities/player as entities/player
+[I] 2024/09/17 08:16:49.959+0300 [       assets-loader] loading textures/entities/player as entities/player
+[I] 2024/09/17 08:16:49.960+0300 [               world] world version: 0.22
+[I] 2024/09/17 08:16:50.043+0300 [       chunks-render] created 12 workers
+[I] 2024/09/17 08:16:50.043+0300 [       scripting-hud] loading script /home/minuta18/.voxeng/content/voxelcraft/scripts/hud.lua
+[I] 2024/09/17 08:16:50.043+0300 [       scripting-hud] loading script /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/content/base/scripts/hud.lua
+[I] 2024/09/17 08:17:31.092+0300 [       level-control] writing world
+[I] 2024/09/17 08:17:31.420+0300 [        level-screen] saving world preview
+[I] 2024/09/17 08:17:31.435+0300 [              locale] locales [fi_FI (Suomi)] [uk_UA (Українська)] [pl_PL (Polski)] [ru_RU (Русский)] [en_US (English)] [de_DE (Deutsch)] [be_BY (Беларуская)] added
+[I] 2024/09/17 08:17:31.435+0300 [              engine] loading assets
+[I] 2024/09/17 08:17:31.435+0300 [       assets-loader] loading textures/blocks as blocks
+[I] 2024/09/17 08:17:31.438+0300 [       assets-loader] loading textures/items as items
+[I] 2024/09/17 08:17:31.438+0300 [       assets-loader] loading fonts/font as normal
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading shaders/ui as ui
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading shaders/main as main
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading shaders/lines as lines
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading textures/gui/menubg as gui/menubg
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading textures/gui/delete_icon as gui/delete_icon
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading textures/gui/no_icon as gui/no_icon
+[I] 2024/09/17 08:17:31.441+0300 [       assets-loader] loading textures/gui/no_world_icon as gui/no_world_icon
+[I] 2024/09/17 08:17:31.442+0300 [       assets-loader] loading textures/gui/warning as gui/warning
+[I] 2024/09/17 08:17:31.442+0300 [       assets-loader] loading textures/gui/error as gui/error
+[I] 2024/09/17 08:17:31.442+0300 [       assets-loader] loading textures/gui/cross as gui/cross
+[I] 2024/09/17 08:17:31.442+0300 [       assets-loader] loading textures/gui/refresh as gui/refresh
+[I] 2024/09/17 08:17:31.443+0300 [           scripting] script (layout) /tmp/.mount_voxele0x6wCE/usr/share/VoxelEngine/res/layouts/pages/main.xml.lua
+[I] 2024/09/17 08:17:32.185+0300 [              engine] saving settings
+[I] 2024/09/17 08:17:32.186+0300 [              engine] saving bindings
+[I] 2024/09/17 08:17:32.186+0300 [              engine] shutting down
+[I] 2024/09/17 08:17:32.186+0300 [              engine] gui finished
+[I] 2024/09/17 08:17:32.188+0300 [              engine] scripting finished
+[I] 2024/09/17 08:17:32.200+0300 [              engine] engine finished
