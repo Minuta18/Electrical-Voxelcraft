@@ -11,8 +11,8 @@
 	"inventory-size": 1,
 	"script-name": "generator_logic",
 	"hidden": true,
-	"picking-item": "electrical_age_lite:generator_thermo.item",
+	"picking-item": "electrical_voxelcraft:generator_thermo.item",
 	"emission": [6, 5, 5],
 	"shadeless": false,
-	"ui-layout": "electrical_age_lite:generator_thermo"
+	"ui-layout": "electrical_voxelcraft:generator_thermo"
 }

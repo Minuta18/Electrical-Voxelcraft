@@ -69,6 +69,6 @@
     ]
   },
   "hidden": true,
-  "picking-item": "electrical_age_lite:wire_creative",
+  "picking-item": "electrical_voxelcraft:wire_creative",
   "script-name": "wire_logic"
 }

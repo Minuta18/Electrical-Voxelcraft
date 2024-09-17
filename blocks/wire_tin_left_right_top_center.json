@@ -51,6 +51,6 @@
     ]
   },
   "hidden": true,
-  "picking-item": "electrical_age_lite:wire_tin",
+  "picking-item": "electrical_voxelcraft:wire_tin",
   "script-name": "wire_logic"
 }

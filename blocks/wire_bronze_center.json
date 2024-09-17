@@ -24,6 +24,6 @@
     ]
   },
   "hidden": true,
-  "picking-item": "electrical_age_lite:wire_bronze",
+  "picking-item": "electrical_voxelcraft:wire_bronze",
   "script-name": "wire_logic"
 }
